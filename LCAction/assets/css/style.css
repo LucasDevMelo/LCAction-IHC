@@ -46,7 +46,30 @@ body::before {
     transform: translateX(-50%);
 }
 
+.register_body {
+    padding: 10px 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 500px;
+    margin-left: 50%;
+    margin-top: 3%;
+    background-color: rgba(41, 52, 57, 0.89);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+
 .login_body h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #e9eaeb;
+    margin-top: 0;
+}
+
+.register_body h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-size: 32px;
@@ -66,7 +89,23 @@ body::before {
     outline: none;
 }
 
+.register_body input {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #535c60;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
 .login_body input:hover {
+    background-color: #3e484c;
+}
+
+.register_body input:hover {
     background-color: #3e484c;
 }
 
@@ -94,7 +133,24 @@ body::before {
     margin-bottom: 10px;
 }
 
+.register_body button {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #F49531;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+
 .login_body button:hover {
+    background-color: #db862c;
+    cursor: pointer;
+}
+
+.register_body button:hover {
     background-color: #db862c;
     cursor: pointer;
 }
